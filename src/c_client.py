@@ -6,6 +6,9 @@ import sys
 import errno
 import re
 
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 # Jump to the bottom of this file for the main routine
 
 #config settings (can be changed with commandline options)
